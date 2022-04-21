@@ -1,0 +1,19 @@
+{
+  "id": "change-layout-plugin-1.0",
+  "name": "change-layout",
+  "description": "Ability to change the conference layout on Virtual Auditoriums and VMRs",
+  "version": 1.0,
+  "srcURL": "change-layout.plugin.js",
+  "allowUnload": true,
+  "platforms": ["web", "electron", "ios", "android"],
+  "participantRoles": ["chair"],
+  "menuItems": {
+    "conference": [
+      {
+        "icon": "assets/images/grid.svg#grid",
+        "label": "Change layout",
+        "action": "changeLayout"
+      }
+    ]
+  }
+}

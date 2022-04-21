@@ -1,0 +1,9 @@
+{
+  "plugins": [
+    {
+      "id": "change-layout-1.0",
+      "srcURL": "plugins/change-layout/change-layout.plugin.package.json",
+      "enabled": true
+    }
+  ]
+}
